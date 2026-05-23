@@ -10,9 +10,9 @@ export default defineConfig({
     ],
     server: {
         host: '0.0.0.0',
-        cors: true, // <--- CORS ENGELİNİ KALDIRAN SİHİRLİ SATIR
+        cors: true,
         hmr: {
-            host: '10.10.0.42'
+            host: '192.168.1.8'
         }
     }
 });
